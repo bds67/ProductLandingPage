@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light&display=swap');
+body {
+  background: #d1c9ff;
+  font-family: "open sans", "sans serif";
+  margin-top: 100px;
+  height: 1000px;
+  font-size: 25px;
+}
+header {
+  font-size: 40px;
+  font-family: "Shadows Into Light", "cursive";
+  background-color: #6f57f7;
+  padding-left: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+header img {
+  height: 50px;
+}
+header * {
+  display: inline;
+}
+header li {
+  font-family: sans serif;  
+  font-size: 50px;
+    margin: 40px;
+}
+header li a {
+      text-decoration: none;
+      color: black;
+}
+a:active {
+  color: yellow;
+}
+a:hover {
+  color: red;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  border: 5px solid blue;
+  border-radius: 10px;
+  background-color: #c4bfe3;
+  }
+.box:hover {
+  color: blue;
+  background-color: white;
+}
+  div {
+    width: 12em;
+    height: 20em;
+    padding: 20px;
+    display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+footer img {
+  float: right;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float: left;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+footer {
+padding-bottom:-100px
+}
